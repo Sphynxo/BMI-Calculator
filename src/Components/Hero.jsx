@@ -130,7 +130,7 @@ export default function Hero() {
         />
       </div>
       <div className="flex flex-col px-[2.4rem] items-center text-center gap-[2.4rem] pt-[2.4rem] md:px-[4.2rem] md:pt-[4rem] xl:flex-row xl:px-[14rem] xl:gap-[12rem] xl:items-start">
-        <div className= "xl:text-left xl:mt-[8rem]">
+        <div className= "xl:text-left xl:mt-[8rem] pr-[2rem]">
           <h1 className="text-heading-l font-semibold leading-[52.8px] tracking-[-2.4px] xl:text-heading-xl xl:leading-[7.2rem]">
             Body Mass Index Calculator
           </h1>
@@ -142,7 +142,7 @@ export default function Hero() {
           </p>
         </div>
 
-        <div className="bg-white p-[2.4rem] rounded-[16px] shadow-custom md:w-full">
+        <div className="bg-white p-[2.4rem] rounded-[16px] shadow-custom md:w-full max-w-[60rem]">
           <h3 className="text-gunmetal text-heading-m font-semibold md:text-left">
             Enter your details below
           </h3>
